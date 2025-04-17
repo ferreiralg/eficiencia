@@ -19,6 +19,6 @@ st.markdown(
     - **Análise CNES Individual:** Explore os indicadores e a evolução da eficiência para um hospital específico (CNES).
     - **Resultados Consolidados:** Veja métricas agregadas e a distribuição da eficiência entre todos os hospitais.
 
-    Os dados são carregados do arquivo `resultado_eficiencia.xlsx` gerado anteriormente.
+    Os dados são do período de Jan/2019 a Mar/2024.
     """
 ) 
