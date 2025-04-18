@@ -10,6 +10,8 @@ Este é um aplicativo Streamlit interativo para visualizar e analisar dados de e
     *   Exibe indicadores chave de desempenho (KPIs) para o hospital selecionado.
     *   Mostra gráficos da evolução da eficiência ao longo do tempo.
     *   Utiliza a API Google Gemini para gerar automaticamente uma análise textual da evolução da eficiência.
+*   **Consulta Hospital:**
+    *   Permite buscar e visualizar informações cadastrais básicas de um hospital pelo seu CNES.
 *   **Resultados Consolidados:**
     *   Apresenta métricas agregadas de eficiência para todos os hospitais.
     *   Visualiza a distribuição da eficiência entre os diferentes hospitais.
@@ -73,7 +75,8 @@ Este aplicativo utiliza a API Google Gemini para gerar análises textuais. Você
 │   └── secrets.toml  # Configurações de API (NÃO ENVIAR PARA O GIT)
 ├── pages/
 │   ├── 1_Analise_CNES_Individual.py # Código da página de análise individual
-│   └── 2_Resultados_Consolidados.py # Código da página de resultados consolidados
+│   ├── 2_Consulta_Hospital.py       # Código da página de consulta de hospital
+│   └── 3_Resultados_Consolidados.py # Código da página de resultados consolidados
 ├── Página_Inicial.py        # Script principal da aplicação (ou app.py)
 ├── requirements.txt         # Dependências Python
 ├── resultado_eficiencia.xlsx # Arquivo de dados de entrada
