@@ -58,7 +58,7 @@ def gerar_analise_evolucao(cnes, periodo_inicio, periodo_fim, dados_mensais_md):
 
     try:
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel('gemini-1.5-pro-latest') # Alterado de gemini-1.5-flash
+        model = genai.GenerativeModel('gemini-2.5-pro-exp-03-25') # Alterado de gemini-1.5-flash
 
         # Prompt detalhado com contexto DEA e dados mensais
         prompt = f"""
